@@ -1,0 +1,262 @@
+html {
+    scroll-behavior: smooth;
+
+}
+body {
+    font-family: 'Poppins', sans-serif;    
+    margin: 0;
+}
+
+.divider {
+    width: 100vw;
+    height: 15vh;
+    clear: both;
+}
+.container {
+    overflow: hidden;
+  position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container--fixedheight {
+    height: 100vh;
+}
+
+
+.container--bg {
+    opacity: 0.8;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+  }
+
+.container--left {
+    position: relative;
+    padding: 2rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+.container--right {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 2rem;
+}
+
+.container--right p{
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+}
+.container--col {
+    display: flex;
+    flex-direction: column;
+}
+
+.container--p {
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    background-color: #ffffffca;
+    padding: .5rem;
+}
+
+.container--img {
+    width: 50vw;
+    height: 40vw;
+    object-fit: cover;
+}
+
+.container--buttons {
+    margin: 1rem;
+}
+
+.container--social {
+    display: flex;
+    align-items: center;
+}
+.social--img {
+    width: 50px;
+    object-fit: cover;
+    padding: .5rem;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.746);
+    border: 2px solid #852231;
+    margin: .5rem;
+    
+}
+.social--img:hover  {
+    background-color: #af426135;
+}
+.title {
+    font-weight: 700;
+    color: #852231;
+    
+}
+.button {
+    background-color: #852231;
+    border: none;
+    color: black;
+    padding: 1rem;
+    margin: .5rem;
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 999rem;
+    text-decoration: none;
+    color: white;
+
+}
+
+.button:hover {
+    background-color: rgb(160, 31, 67);
+}
+.button--buy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #852231;
+    color: white;
+    width: 25vw;
+    padding: 1rem;
+    border-radius: 999rem;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+}
+
+.button--buy:hover {
+    background-color: rgb(160, 31, 67);
+
+}
+.button--buy-icon {
+    width: 35px;
+
+}
+.card {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    width: 25vw;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0.9752275910364145) 0%, rgba(255,245,255,1) 100%);
+}
+.card--img {
+    width: 35px;
+    object-fit: cover;
+}
+
+.card--row {
+    display: flex;
+}
+
+.card--title {
+    color: #852231;
+}
+
+.hidden-on-mobile {
+    display: none;
+}
+
+/* Swiper */
+.swiper-container {
+    width: 50vw;
+    height: 40vw;
+    object-fit: cover;
+  }
+
+/* End Swiper */
+
+.hidden-on-desktop {
+    display: flex;
+}
+.hidden-on-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .divider {
+        width: 100vw;
+        height: 10vh;
+        clear: both;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+    .container--p {
+        width: 50vw;
+    }
+    .container--left {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding: 0;
+    }
+    .container--bg {
+        /* display: none; */
+    }
+    .container--right {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .container--fixedheight {
+        height: 100%;
+    }
+
+    
+    .card {
+        width: 50vw;
+    }
+    .card p {
+        padding: 1rem;
+    }
+    .card--row {
+        flex-direction: column;
+    }
+    .swiper-container {
+        width: 100vw;
+        height: 50vh;
+        object-fit: cover;
+        display: flex;
+        align-items: center;
+      }
+      .container--img {
+        width: 100vw;
+        height: 100%;
+        object-fit: cover;
+    }
+
+      .button--buy {
+        width: 50vw;
+      }
+
+      .hidden-on-desktop {
+        display: none;
+    }
+
+    .hidden-on-mobile {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container--p {
+        width: 90vw;
+    }
+    .card {
+        width: 70vw;
+    }
+}
