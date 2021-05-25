@@ -7,6 +7,34 @@ body {
     margin: 0;
 }
 
+ul {
+    text-align: left;
+}
+.docs-container {
+    display: flex;
+    padding: 50px;
+}
+.docs-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.swiper-pagination-bullet {
+    background: white;
+}
+
+
+.cookie-container {
+    padding: 15px;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cookiebanner {
+    background-color:rgb(160, 31, 67)
+}
+
 .divider {
     width: 100vw;
     height: 15vh;
@@ -20,9 +48,43 @@ body {
     align-items: center;
 }
 
+.events {    
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    text-align: center; 
+    justify-content: center;
+}
+
+.events--content {
+    display: flex;
+    width: 25vw;
+    justify-content: center;
+}
+.events--text {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+.events--img {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+}
+
 .container--fixedheight {
     height: 100vh;
 }
+
+.container--bg-jumbotron {
+    opacity: 0.8;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
 
 
 .container--bg {
@@ -30,8 +92,7 @@ body {
     position: absolute;
     left: 0;
     top: 0;
-    width: 100%;
-    height: auto;
+    height: 150%;
   }
 
 .container--left {
@@ -81,6 +142,9 @@ body {
 .container--social {
     display: flex;
     align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
 }
 .social--img {
     width: 50px;
@@ -90,15 +154,24 @@ body {
     background-color: rgba(255, 255, 255, 0.746);
     border: 2px solid #852231;
     margin: .5rem;
-    
 }
 .social--img:hover  {
-    background-color: #af426135;
+    background-color: #ffffff98;
+}
+
+.social--text {
+    padding: .5rem;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.746);
+    border: 2px solid #852231;
+    margin: .5rem;
+    color: #852231;
 }
 .title {
     font-weight: 700;
     color: #852231;
-    
+    text-align:center;
+
 }
 .button {
     background-color: #852231;
@@ -192,6 +265,10 @@ body {
         clear: both;
     }
 
+    
+    .events {  
+    flex-direction: column;
+}
     .container {
         flex-direction: column;
     }
@@ -203,20 +280,28 @@ body {
         text-align: center;
         align-items: center;
         padding: 0;
+        height: 100%;
     }
-    .container--bg {
-        /* display: none; */
-    }
+
+    .container--bg-jumbotron {
+        top: -20vh;
+        height: 150%;
+      }
+
+      .container--bg {
+        top: -20vh;
+        height: 150%;
+        object-fit: cover;
+      }
+
+      
     .container--right {
         justify-content: center;
         text-align: center;
         align-items: center;
-    }
-    .container--fixedheight {
         height: 100%;
     }
 
-    
     .card {
         width: 50vw;
     }
