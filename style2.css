@@ -266,9 +266,19 @@ ul {
     }
 
     
-    .events {  
+    .events {
+        margin: 0;
     flex-direction: column;
 }
+
+        .events--content {
+            width: 100%;
+        }
+
+        .events--img {
+            width: 90vw;
+        }
+
     .container {
         flex-direction: column;
     }
