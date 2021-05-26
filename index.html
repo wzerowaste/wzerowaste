@@ -4,24 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">    
-    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.0.0/webcomponents-loader.js"></script>
+    <script src="components/navbar.js" defer></script>
     <title>W Zero Waste</title>
 </head>
 <body>
-    
 
-    
-    
+
+    <navbar-component></navbar-component>
+    <!--Navbar-->
+    <!-- <div class="navbar">
+        <div class="navbar--logo">
+            W Zero Waste
+        </div>
+        <div class="navbar--menu">
+            <a href="#prodotti">
+                Prodotti
+            </a>
+            <a href="#eventi">
+                Eventi
+            </a>
+            <a href="#linkutili">
+                Link Utili
+            </a>
+            <a href="blog/blog.html">
+                Blog
+            </a>
+        </div>
+
+        <div
+            id="navbar--menu-burger"
+            onClick="toggleDropdownMenu()"
+            class="navbar--menu-burger">
+        </div>
+
+
+        <div id="navbar--menu-dropdown" 
+            class="navbar--menu-dropdown navbar--menu-is-visible">
+                <a href="#prodotti">
+                    Prodotti
+                </a>
+                <a href="#eventi">
+                    Eventi
+                </a>
+                <a href="#linkutili">
+                    Link Utili
+                </a>
+                <a href="blog/blog.html">
+                    Blog
+                </a>
+        </div>
+
+    </div> -->
+<!--End Navbar-->
+
+    <button onclick="goToTop()" id="button--go-up" title="Go to top">Top</button>
+
+
     <div class="container">
         <img
         class="container--bg-jumbotron"
         src="/img/bg-03.jpg"
         alt="bg-03"
-      >
+    >
             <div class="container--left">
                 <h1 class="title" style="font-size: 5rem">
                     W Zero Waste
@@ -39,20 +89,7 @@
                     </a>
                 </div>
 
-                <div class="container--social">
-                    <a href="#eventi">
-                        <p class="social--text">
-                            Eventi
-                        </p>
-                    </a>
-                    <!-- <a href="contacts.html">
-                        <p class="social--text">
-                            Contatti
-                        </p>                    
-                    </a> -->
 
-                </div>
-                
                 <p class="container--p">
                     Il mondo W0W: prodotti sostenibili fatti a mano in Brianza, per la persona, la casa e il giardino
                 </p>
@@ -67,7 +104,7 @@
                         <p>
                             Pellicola per alimenti ecologica prodotta a mano in Italia a impatto zero
                         </p>
-                    
+
                         <a class="button" href="#section-1">
                             Vedi prodotti
                         </a>
@@ -79,7 +116,7 @@
                             Wrap 0 Waste
                         </h2>
                         <p>
-                            Fascia per capelli modellabile, hair wrap, nastro capelli vintage, turbante.                        
+                            Fascia per capelli modellabile, hair wrap, nastro capelli vintage, turbante.
                         </p>
                         <a class="button" href="#section-2">
 
@@ -96,20 +133,20 @@
                             Wash 0 Waste
                         </h2>
                         <p>
-                            Spugnette levatrucco ecologiche realizzate a mano 
+                            Spugnette levatrucco ecologiche realizzate a mano
                         </p>
                         <a class="button" href="#section-3">
                             Vedi prodotti
                         </a>
                     </div>
                     <div class="card" id="card-4">
-                               <img class="card--img" src="/img/icon-garden.svg" />
+                            <img class="card--img" src="/img/icon-garden.svg" />
 
                         <h2 class="card--title">
                             Wire 0 Waste
                         </h2>
                         <p>
-                           Oggettistica in filo di metallo (rame e alluminio) per decorare l'orto e il giardino
+                            Oggettistica in filo di metallo (rame e alluminio) per decorare l'orto e il giardino
                         </p>
                         <a class="button" href="#section-4">
                             Vedi prodotti
@@ -122,25 +159,26 @@
 
 
 
-    
+
         <!-- EVENTI -->
 
     <div class="divider"></div>
+
             <h1 id="eventi" class="title" style="margin: 2rem">
                 Eventi
             </h1>
 
             <div class="events">
-                
+
                 <div class="events--content">
                     <img class="events--img" src="https://scontent.fmxp5-1.fna.fbcdn.net/v/t1.6435-9/s720x720/185441575_4278707345493703_3474430466037658192_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=Y5hp4ceaK2YAX8_WlFL&_nc_ht=scontent.fmxp5-1.fna&tp=7&oh=1042b35ff25df2e1e9c18d6e4504e4cd&oe=60D2153F" />
 
                 </div>
-                
+
                 <div class="events--content">
                     <div class="events--text">
-                        <h3 class="title">               
-                                Festa dei fiori e della fantasia                       
+                        <h3 class="title">
+                                Festa dei fiori e della fantasia
                         </h3>
                         <h4>
                             5-6 giugno 2021
@@ -150,8 +188,8 @@
                         </p>
                     </div>
                 </div>
-                
-                
+
+
             </div>
 
             <div class="events">
@@ -172,11 +210,11 @@
                         </p>
                     </div>
                 </div>
-                
-                
+
+
             </div>
-               
-      
+
+
 
         <!-- END EVENTI -->
 
@@ -186,7 +224,7 @@
 
         <div class="divider"></div>
 
-        <h1 class="title" style="margin: 2rem">
+        <h1 id="prodotti" class="title" style="margin: 2rem">
             Prodotti
         </h1>
 
@@ -196,7 +234,7 @@
         src="/img/bg-02.jpg"
         alt="bg-02"
         style="opacity: 0.2"
-      >
+        >
                 <div class="container--left">
 
                     <!-- Swiper -->
@@ -263,12 +301,12 @@
                                 <img class="container--img" src="img/wax0waste-10.jpg">
                             </div>
                         </div>
-                    
+
                         <div class="swiper-button-prev"></div>
                         <div class="swiper-button-next"></div>
                         <div class="swiper-pagination"></div>
 
-                
+
                     </div>
 
                 </div>
@@ -277,17 +315,17 @@
                         Wax 0 Waste
                     </h1>
                         <p>
-                            Ho sempre creato  gioelli 
+                            Ho sempre creato  gioelli
                             ma...
                         </p>
                             <p>
                                 questo prodotto per la protezione degli alimenti, sconosciuto nel nostro paese ma molto utilizzato all'estero, mi ha conquìstato!
-                            </p>  
+                            </p>
                             <p>
                                 L'ho scoperto in Australia ed ho voluto riprodurlo in Italia utilizzando materiali bio e prodotti locali.
                             </p>
                             <p>
-                                Il risultato è un tessuto cerato dal delicato aroma di cocco e miele, gradevole al tatto, malleabile, adesivo, riutilizzabile fino a 12 mesi e piu', perfetto sostituto della pellicola di plastica.                                
+                                Il risultato è un tessuto cerato dal delicato aroma di cocco e miele, gradevole al tatto, malleabile, adesivo, riutilizzabile fino a 12 mesi e piu', perfetto sostituto della pellicola di plastica.
                             </p>
                             <p>
                                 Può essere utilizzato per:
@@ -321,11 +359,11 @@
                                 un prodotto vegetale, bio, nel rispetto degli esseri viventi.
                             </p>
 
-                     <a class="button--buy"  style="margin: 0" href="https://www.etsy.com/it/listing/997951766/100-vegsacco-piccolopellicola-ecologica">
+                    <a class="button--buy"  style="margin: 0" href="https://www.etsy.com/it/listing/997951766/100-vegsacco-piccolopellicola-ecologica">
                         <span>Compralo su <span style="text-decoration: underline">Etsy</span></span>
                         <img src="/img/icon-window.svg" class="button--buy-icon"/>
                     </a>
-                </div>  
+                </div>
             </div>
 
             <div class="divider"></div>
@@ -342,7 +380,7 @@
 
                     <div class="swiper-container">
                         <div class="swiper-wrapper">
-                 
+
                             <div class="swiper-slide">
                                 <img class="container--img" src="img/wrap0waste-00.jpg">
                             </div>
@@ -365,14 +403,14 @@
                             <div class="swiper-slide">
                                 <img class="container--img" src="img/wrap0waste-06.jpg">
                             </div>
-                           
+
                         </div>
-                    
+
                         <div class="swiper-button-prev"></div>
                         <div class="swiper-button-next"></div>
                         <div class="swiper-pagination"></div>
 
-                
+
                     </div>
                 </div>
 
@@ -387,16 +425,16 @@
                                 Ideale per il freddo per o semplicemente per esaltare la tua femminilità!
                                 Utilizzabile anche come cintura.
                             </p>
-                           <p>
-                            Realizzato artigianalmente con cuciture interne e filo di alluminio.                    
-                           </p>
-                        
-                     <a class="button--buy" style="margin: 0" href="https://www.etsy.com/it/listing/996894766/fascia-per-capelli-modellabile-hair-wrap">
+                        <p>
+                            Realizzato artigianalmente con cuciture interne e filo di alluminio.
+                        </p>
+
+                    <a class="button--buy" style="margin: 0" href="https://www.etsy.com/it/listing/996894766/fascia-per-capelli-modellabile-hair-wrap">
                         <span>Compralo su <span style="text-decoration: underline">Etsy</span></span>
                         <img src="/img/icon-window.svg" class="button--buy-icon"/>
                     </a>
                 </div>
-                
+
             </div>
 
             <div class="divider"></div>
@@ -411,11 +449,11 @@
                 >
 
                 <div class="container--left">
-                    
+
                     <div class="swiper-container">
                         <div class="swiper-wrapper">
-                 
-                            
+
+
                             <div class="swiper-slide">
                                 <img class="container--img" src="img/wash0waste-02.jpg">
                             </div>
@@ -443,14 +481,14 @@
                             <div class="swiper-slide">
                                 <img class="container--img" src="img/wash0waste-09.jpg">
                             </div>
-                           
+
                         </div>
-                    
+
                         <div class="swiper-button-prev"></div>
                         <div class="swiper-button-next"></div>
                         <div class="swiper-pagination"></div>
 
-                
+
                     </div>
 
                 </div>
@@ -470,13 +508,13 @@
                         <p>
                             COMPOSIZIONE
                             - Cotone 100%,
-                            - Microfibra                            
+                            - Microfibra
                     </p>
-                     <a class="button--buy" style="margin: 0" href="https://www.etsy.com/it/listing/928221706/dischetti-struccantispugnette-levatrucco">
+                    <a class="button--buy" style="margin: 0" href="https://www.etsy.com/it/listing/928221706/dischetti-struccantispugnette-levatrucco">
                         <span>Compralo su <span style="text-decoration: underline">Etsy</span></span>
                         <img src="/img/icon-window.svg" class="button--buy-icon"/>
                     </a>
-                </div>  
+                </div>
             </div>
 
             <div class="divider"></div>
@@ -491,10 +529,10 @@
                 >
 
                 <div class="container--left">
-                    
+
                     <div class="swiper-container">
                         <div class="swiper-wrapper">
-                 
+
                             <div class="swiper-slide">
                                 <img class="container--img" src="img/wire0waste-01.jpg">
                             </div>
@@ -502,11 +540,11 @@
                                 <img class="container--img" src="img/wire0waste-02.jpg">
                             </div>
                         </div>
-                    
+
                         <div class="swiper-button-prev"></div>
                         <div class="swiper-button-next"></div>
                         <div class="swiper-pagination"></div>
-                
+
                     </div>
 
                 </div>
@@ -521,16 +559,16 @@
                             sostegni per piante aeree, decorazioni vasi e aiuole.
 
                         </p>
-                       
-                     <a class="button--buy" style="margin: 0" href="#">
+
+                    <a class="button--buy" style="margin: 0" href="#">
                         <span>Compralo su <span style="text-decoration: underline">Etsy</span></span>
                         <img src="/img/icon-window.svg" class="button--buy-icon"/>
                     </a>
-                </div>  
+                </div>
             </div>
 
-            
-            
+
+
 
             <div class="divider"></div>
 
@@ -541,7 +579,7 @@
                 class="container--bg-jumbotron"
                 src="/img/bg-01.jpg"
                 alt="bg-01"
-              >
+            >
                 <div class="container--left">
                     <h1 class="title" style="font-size: 5rem">
                         W Zero Waste
@@ -563,42 +601,16 @@
                     </a>
                     <a  href="http://www.etsy.com/it/shop/WaxZeroWaste" target="_blank">
                         <img class="social--img" src="/img/icon-etsy.svg" />
-        
+
                     </a>
                 </div>
-                
-                
             </div>
 
             <!--End Footer-->
 
-            <!-- Swiper JS -->
-            <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-            <script>
-            const swiper = new Swiper('.swiper-container', {
-                direction: 'horizontal',
-                loop: true,
-                spaceBetween: 30,
-                
-                pagination: {
-                    el: '.swiper-pagination',
-                    dynamicBullets: true,
-                },
+    <!--SCRIPTS-->
 
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
-
-                scrollbar: {
-                    el: '.swiper-scrollbar',
-                },
-                });
-            </script>
-        <!-- End Swiper JS -->
-
-            
     <!--COOKIE-->
     <script type="text/javascript"
     id="cookiebanner"
@@ -610,15 +622,16 @@
     data-linkmsg =""
     data-moreinfo = "cookie-policy.html"
     data-message="
-            Questo sito fa uso di cookie. Può conoscere i dettagli consultando la nostra <a href='cookie-policy.html'>cookie policy</a>. 
-            Proseguendo nella navigazione si accetta l’uso dei cookie; in caso contrario è possibile abbandonare il sito.
-    
-    "></script>
+    Questo sito fa uso di cookie. Può conoscere i dettagli consultando la nostra <a href='cookie-policy.html'>cookie policy</a>.
+    Proseguendo nella navigazione si accetta l’uso dei cookie; in caso contrario è possibile abbandonare il sito.
+    "
+    ></script>
 
-    <!-- Analytics by volument.com -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script async src="https://cdn.volument.com/v1/volument.js" onload="volument('4ef2accc4e')"></script>
+    <script src="js/script.js" async></script>
 
-
+<!-- END SCRIPTS -->
 
 </body>
 </html>
