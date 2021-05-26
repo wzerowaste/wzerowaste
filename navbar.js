@@ -19,9 +19,6 @@ class Navbar extends HTMLElement {
                 <a href="#linkutili">
                     Link Utili
                 </a>
-                <a href="blog/blog.html">
-                    Blog
-                </a>
             </div>
     
             <div
@@ -42,9 +39,7 @@ class Navbar extends HTMLElement {
                     <a href="#linkutili">
                         Link Utili
                     </a>
-                    <a href="blog/blog.html">
-                        Blog
-                    </a>
+                    
             </div>
     
         </div>

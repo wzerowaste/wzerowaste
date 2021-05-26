@@ -9,61 +9,17 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.0.0/webcomponents-loader.js"></script>
-    <script src="components/navbar.js" defer></script>
+    <script src="https://unpkg.com/browse/@webcomponents/webcomponentsjs@2.5.0/webcomponents-loader.js"></script>
+    <script src="navbar.js" defer></script>
+    <script src="footer.js" defer></script>
+
     <title>W Zero Waste</title>
 </head>
 <body>
 
-
-    <navbar-component></navbar-component>
-    <!--Navbar-->
-    <!-- <div class="navbar">
-        <div class="navbar--logo">
-            W Zero Waste
-        </div>
-        <div class="navbar--menu">
-            <a href="#prodotti">
-                Prodotti
-            </a>
-            <a href="#eventi">
-                Eventi
-            </a>
-            <a href="#linkutili">
-                Link Utili
-            </a>
-            <a href="blog/blog.html">
-                Blog
-            </a>
-        </div>
-
-        <div
-            id="navbar--menu-burger"
-            onClick="toggleDropdownMenu()"
-            class="navbar--menu-burger">
-        </div>
-
-
-        <div id="navbar--menu-dropdown" 
-            class="navbar--menu-dropdown navbar--menu-is-visible">
-                <a href="#prodotti">
-                    Prodotti
-                </a>
-                <a href="#eventi">
-                    Eventi
-                </a>
-                <a href="#linkutili">
-                    Link Utili
-                </a>
-                <a href="blog/blog.html">
-                    Blog
-                </a>
-        </div>
-
-    </div> -->
-<!--End Navbar-->
-
     <button onclick="goToTop()" id="button--go-up" title="Go to top">Top</button>
+    <navbar-component></navbar-component>
+    
 
 
     <div class="container">
@@ -569,44 +525,16 @@
 
 
 
+                <div class="divider"></div>
+
+            <h1 id="linkutili" class="title" style="margin: 2rem">
+                Link Utili
+            </h1>
+
 
             <div class="divider"></div>
 
-            <!--Footer-->
-
-            <div class="container" >
-                <img
-                class="container--bg-jumbotron"
-                src="/img/bg-01.jpg"
-                alt="bg-01"
-            >
-                <div class="container--left">
-                    <h1 class="title" style="font-size: 5rem">
-                        W Zero Waste
-                    </h1>
-                </div>
-
-                <div style="z-index: 3">
-                    <a style="color: #852231" href="cookie-policy.html">Cookies</a>
-                    <hr />
-                    <a style="color: #852231" href="privacy-policy.html">Privacy</a>
-                </div>
-
-                <div class="container--social" style="z-index: 3; margin-left: 1rem;">
-                    <a href="https://www.instagram.com/selenacreativejewelry/" target="_blank">
-                        <img class="social--img" src="/img/icon-insta.svg" />
-                    </a>
-                    <a href="https://www.facebook.com/selenacreativejewelry" target="_blank">
-                        <img class="social--img" style="width: 43px" src="/img/icon-face.svg" />
-                    </a>
-                    <a  href="http://www.etsy.com/it/shop/WaxZeroWaste" target="_blank">
-                        <img class="social--img" src="/img/icon-etsy.svg" />
-
-                    </a>
-                </div>
-            </div>
-
-            <!--End Footer-->
+            <footer-component></footer-component>
 
 
     <!--SCRIPTS-->
