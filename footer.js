@@ -1,11 +1,15 @@
 class Footer extends HTMLElement {
-    constructor() {
-        super();
-    }
-    connectedCallback() {
-        this.innerHTML = `
-        <!--Footer-->
+  constructor() {
+    super();
+  }
+  connectedCallback() {
+    this.innerHTML = `
 
+        <!--Go To Top-->
+        
+        <img onclick="goToTop()" id="button--go-up" src="img/icon-arrowup.svg" />
+        
+        <!--Footer-->
             <div class="container" >
                 <img
                 class="container--bg-jumbotron"
@@ -39,8 +43,8 @@ class Footer extends HTMLElement {
             </div>
 
             <!--End Footer-->
-    `
-    }
+    `;
+  }
 }
 
-customElements.define('footer-component', Footer);
+customElements.define("footer-component", Footer);

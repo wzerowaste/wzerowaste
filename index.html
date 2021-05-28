@@ -1,565 +1,603 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/browse/@webcomponents/webcomponentsjs@2.5.0/webcomponents-loader.js"></script>
     <script src="navbar.js" defer></script>
     <script src="footer.js" defer></script>
 
     <title>W Zero Waste</title>
-</head>
-<body>
-
-    <button onclick="goToTop()" id="button--go-up" title="Go to top">Top</button>
+  </head>
+  <body>
     <navbar-component></navbar-component>
-    
-
 
     <div class="container">
-        <img
-        class="container--bg-jumbotron"
-        src="/img/bg-03.jpg"
-        alt="bg-03"
-    >
-            <div class="container--left">
-                <h1 class="title" style="font-size: 5rem">
-                    W Zero Waste
-                </h1>
-                <div class="container--social">
-                    <a href="https://www.instagram.com/selenacreativejewelry/" target="_blank">
-                        <img class="social--img" src="/img/icon-insta.svg" />
-                    </a>
-                    <a href="https://www.facebook.com/selenacreativejewelry" target="_blank">
-                        <img class="social--img" style="width: 43px" src="/img/icon-face.svg" />
-                    </a>
-                    <a  href="http://www.etsy.com/it/shop/WaxZeroWaste" target="_blank">
-                        <img class="social--img" src="/img/icon-etsy.svg" />
+      <img class="container--bg-jumbotron" src="/img/bg-03.jpg" alt="bg-03" />
+      <div class="container--left">
+        <h1 class="title" style="font-size: 5rem">W Zero Waste</h1>
+        <div class="container--social">
+          <a
+            href="https://www.instagram.com/selenacreativejewelry/"
+            target="_blank"
+          >
+            <img class="social--img" src="/img/icon-insta.svg" />
+          </a>
+          <a
+            href="https://www.facebook.com/selenacreativejewelry"
+            target="_blank"
+          >
+            <img
+              class="social--img"
+              style="width: 43px"
+              src="/img/icon-face.svg"
+            />
+          </a>
+          <a href="http://www.etsy.com/it/shop/WaxZeroWaste" target="_blank">
+            <img class="social--img" src="/img/icon-etsy.svg" />
+          </a>
+        </div>
 
-                    </a>
-                </div>
+        <p class="container--p">
+          Il mondo W0W: prodotti sostenibili fatti a mano in Brianza, per la
+          persona, la casa e il giardino
+        </p>
+      </div>
+      <div class="container--right">
+        <div class="card--row">
+          <div class="card" id="card-1">
+            <img class="card--img" src="/img/icon-house.svg" />
+            <h2 class="card--title">Wax 0 Waste</h2>
+            <p>
+              Pellicola per alimenti ecologica prodotta a mano in Italia a
+              impatto zero
+            </p>
 
+            <a class="button" href="#section-1"> Vedi prodotti </a>
+          </div>
+          <div class="card" id="card-2">
+            <img class="card--img" src="/img/icon-hair.svg" />
 
-                <p class="container--p">
-                    Il mondo W0W: prodotti sostenibili fatti a mano in Brianza, per la persona, la casa e il giardino
-                </p>
-            </div>
-            <div class="container--right">
-                <div class="card--row">
-                    <div class="card" id="card-1">
-                        <img class="card--img" src="/img/icon-house.svg" />
-                        <h2 class="card--title">
-                            Wax 0 Waste
-                        </h2>
-                        <p>
-                            Pellicola per alimenti ecologica prodotta a mano in Italia a impatto zero
-                        </p>
+            <h2 class="card--title">Wrap 0 Waste</h2>
+            <p>
+              Fascia per capelli modellabile, hair wrap, nastro capelli vintage,
+              turbante.
+            </p>
+            <a class="button" href="#section-2"> Vedi prodotti </a>
+          </div>
+        </div>
+        <div class="card--row">
+          <div class="card" id="card-3">
+            <img class="card--img" src="/img/icon-wash.svg" />
 
-                        <a class="button" href="#section-1">
-                            Vedi prodotti
-                        </a>
-                    </div>
-                    <div class="card" id="card-2">
-                        <img class="card--img" src="/img/icon-hair.svg" />
+            <h2 class="card--title">Wash 0 Waste</h2>
+            <p>Spugnette levatrucco ecologiche realizzate a mano</p>
+            <a class="button" href="#section-3"> Vedi prodotti </a>
+          </div>
+          <div class="card" id="card-4">
+            <img class="card--img" src="/img/icon-garden.svg" />
 
-                        <h2 class="card--title">
-                            Wrap 0 Waste
-                        </h2>
-                        <p>
-                            Fascia per capelli modellabile, hair wrap, nastro capelli vintage, turbante.
-                        </p>
-                        <a class="button" href="#section-2">
-
-                            Vedi prodotti
-                        </a>
-                    </div>
-                    </div>
-                <div class="card--row">
-
-                    <div class="card" id="card-3">
-                        <img class="card--img" src="/img/icon-wash.svg" />
-
-                        <h2 class="card--title">
-                            Wash 0 Waste
-                        </h2>
-                        <p>
-                            Spugnette levatrucco ecologiche realizzate a mano
-                        </p>
-                        <a class="button" href="#section-3">
-                            Vedi prodotti
-                        </a>
-                    </div>
-                    <div class="card" id="card-4">
-                            <img class="card--img" src="/img/icon-garden.svg" />
-
-                        <h2 class="card--title">
-                            Wire 0 Waste
-                        </h2>
-                        <p>
-                            Oggettistica in filo di metallo (rame e alluminio) per decorare l'orto e il giardino
-                        </p>
-                        <a class="button" href="#section-4">
-                            Vedi prodotti
-                        </a>
-
-                    </div>
-                </div>
-            </div>
+            <h2 class="card--title">Wire 0 Waste</h2>
+            <p>
+              Oggettistica in filo di metallo (rame e alluminio) per decorare
+              l'orto e il giardino
+            </p>
+            <a class="button" href="#section-4"> Vedi prodotti </a>
+          </div>
+        </div>
+      </div>
     </div>
 
-
-
-
-        <!-- EVENTI -->
+    <!-- EVENTI -->
 
     <div class="divider"></div>
 
-            <h1 id="eventi" class="title" style="margin: 2rem">
-                Eventi
-            </h1>
+    <h1 id="eventi" class="title" style="margin: 2rem">Eventi</h1>
 
-            <div class="events">
+    <div class="events">
+      <div class="events--content">
+        <img
+          class="events--img"
+          src="img/events/05-21-tutti-giu-per-terra.jpg"
+        />
+      </div>
 
-                <div class="events--content">
-                    <img class="events--img" src="https://scontent.fmxp5-1.fna.fbcdn.net/v/t1.6435-9/s720x720/185441575_4278707345493703_3474430466037658192_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=Y5hp4ceaK2YAX8_WlFL&_nc_ht=scontent.fmxp5-1.fna&tp=7&oh=1042b35ff25df2e1e9c18d6e4504e4cd&oe=60D2153F" />
+      <div class="events--content">
+        <div class="events--text">
+          <h3 class="title">Tutti giù per terra</h3>
+          <h4>30 maggio 2021</h4>
+          <p></p>
+        </div>
+      </div>
+    </div>
 
-                </div>
+    <div class="events">
+      <div class="events--content">
+        <img
+          class="events--img"
+          src="img/events//06-2021-festa-fiori-fantasia.jpg"
+        />
+      </div>
 
-                <div class="events--content">
-                    <div class="events--text">
-                        <h3 class="title">
-                                Festa dei fiori e della fantasia
-                        </h3>
-                        <h4>
-                            5-6 giugno 2021
-                        </h4>
-                        <p>
-                            Desio (MB)
-                        </p>
-                    </div>
-                </div>
+      <div class="events--content">
+        <div class="events--text">
+          <h3 class="title">Festa dei fiori e della fantasia</h3>
+          <h4>5-6 giugno 2021</h4>
+          <p>Desio (MB)</p>
+        </div>
+      </div>
+    </div>
 
+    <div class="events">
+      <div class="events--content">
+        <img
+          class="events--img"
+          src="img/events/06-2021-cesano sotto-le-stelle.jpg"
+        />
+      </div>
 
-            </div>
+      <div class="events--content">
+        <div class="events--text">
+          <h3 class="title">Cesano sotto le stelle</h3>
+          <h4>25 giugno 2021</h4>
+          <p>Cesano Maderno (MB)</p>
+        </div>
+      </div>
+    </div>
 
-            <div class="events">
-                <div class="events--content">
-                    <img class="events--img"  src="https://www.mbnews.it/wp-content/uploads/2020/07/nova-sotto-stelle-loc.jpg" />
-                </div>
+    <div class="events">
+      <div class="events--content">
+        <img
+          class="events--img"
+          src="img/events/07-2021-nova-sotto-le-stelle.jpg"
+        />
+      </div>
 
-                <div class="events--content">
-                    <div class="events--text">
-                        <h3 class="title">
-                                Nova sotto le stelle
-                        </h3>
-                        <h4>
-                            2-16 luglio 2021
-                        </h4>
-                        <p>
-                            Nova Milanese (MB)
-                        </p>
-                    </div>
-                </div>
+      <div class="events--content">
+        <div class="events--text">
+          <h3 class="title">Nova sotto le stelle</h3>
+          <h4>2-16 luglio 2021</h4>
+          <p>Nova Milanese (MB)</p>
+        </div>
+      </div>
+    </div>
 
+    <!-- END EVENTI -->
 
-            </div>
+    <!-- PRODOTTI -->
 
+    <div class="divider"></div>
+    <h1 id="prodotti" class="title" style="margin: 2rem">Prodotti</h1>
 
-
-        <!-- END EVENTI -->
-
-
-
-        <!-- PRODOTTI -->
-
-        <div class="divider"></div>
-
-        <h1 id="prodotti" class="title" style="margin: 2rem">
-            Prodotti
-        </h1>
-
-        <div class="container" id="section-1">
-            <img
+    <div class="container" id="section-1">
+      <img
         class="container--bg"
         src="/img/bg-02.jpg"
         alt="bg-02"
         style="opacity: 0.2"
+      />
+      <div class="container--left">
+        <!-- Swiper -->
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img class="container--img" src="img/wax0waste-12.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img class="container--img" src="img/wax0waste-14.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img class="container--img" src="img/wax0waste-15.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img class="container--img" src="img/wax0waste-16.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img class="container--img" src="img/wax0waste-17.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img class="container--img" src="img/wax0waste-18.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img class="container--img" src="img/wax0waste-19.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img class="container--img" src="img/wax0waste-20.jpg" />
+            </div>
+
+            <div class="swiper-slide">
+              <img class="container--img" src="img/wax0waste-11.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img class="container--img" src="img/wax0waste-01.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img class="container--img" src="img/wax0waste-02.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img class="container--img" src="img/wax0waste-03.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img class="container--img" src="img/wax0waste-04.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img class="container--img" src="img/wax0waste-05.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img class="container--img" src="img/wax0waste-06.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img class="container--img" src="img/wax0waste-07.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img class="container--img" src="img/wax0waste-08.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img class="container--img" src="img/wax0waste-09.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img class="container--img" src="img/wax0waste-10.jpg" />
+            </div>
+          </div>
+
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <div class="container--right">
+        <h1 class="title" style="font-size: 3rem">Wax 0 Waste</h1>
+        <p>Ho sempre creato gioelli ma...</p>
+        <p>
+          questo prodotto per la protezione degli alimenti, sconosciuto nel
+          nostro paese ma molto utilizzato all'estero, mi ha conquìstato!
+        </p>
+        <p>
+          L'ho scoperto in Australia ed ho voluto riprodurlo in Italia
+          utilizzando materiali bio e prodotti locali.
+        </p>
+        <p>
+          Il risultato è un tessuto cerato dal delicato aroma di cocco e miele,
+          gradevole al tatto, malleabile, adesivo, riutilizzabile fino a 12 mesi
+          e piu', perfetto sostituto della pellicola di plastica.
+        </p>
+        <p>Può essere utilizzato per:</p>
+        <ul>
+          <li>preservare formaggi,verdure e frutta in frigorifero</li>
+          <li>coperchio per ciotole o piatti</li>
+          <li>proteggere spuntini in ufficio</li>
+          <li>custodire la merenda per la scuola</li>
+          <li>preservare il pane</li>
+          <li>contenitore per salatini, patatine per i tuoi party</li>
+          <li>carta regalo riutilizzabile.</li>
+        </ul>
+
+        <p>
+          Possibilità di realizzare pellicola o sacco anche con cera di soia per
+          chi desidera un prodotto vegetale, bio, nel rispetto degli esseri
+          viventi.
+        </p>
+
+        <a
+          class="button--buy"
+          style="margin: 0"
+          href="https://www.etsy.com/it/listing/997951766/100-vegsacco-piccolopellicola-ecologica"
         >
-                <div class="container--left">
+          <span
+            >Compralo su
+            <span style="text-decoration: underline">Etsy</span></span
+          >
+          <img src="/img/icon-window.svg" class="button--buy-icon" />
+        </a>
+      </div>
+    </div>
 
-                    <!-- Swiper -->
-                    <div class="swiper-container">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <img class="container--img" src="img/wax0waste-12.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="container--img" src="img/wax0waste-14.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="container--img" src="img/wax0waste-15.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="container--img" src="img/wax0waste-16.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="container--img" src="img/wax0waste-17.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="container--img" src="img/wax0waste-18.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="container--img" src="img/wax0waste-19.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="container--img" src="img/wax0waste-20.jpg">
-                            </div>
+    <div class="divider"></div>
 
+    <div class="container" id="section-2">
+      <img
+        class="container--bg"
+        src="/img/bg-02.jpg"
+        alt="bg-02"
+        style="opacity: 0.2"
+      />
 
-                            <div class="swiper-slide">
-                                <img class="container--img" src="img/wax0waste-11.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="container--img" src="img/wax0waste-01.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="container--img" src="img/wax0waste-02.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="container--img" src="img/wax0waste-03.jpg">
-
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="container--img" src="img/wax0waste-04.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="container--img" src="img/wax0waste-05.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="container--img" src="img/wax0waste-06.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="container--img" src="img/wax0waste-07.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="container--img" src="img/wax0waste-08.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="container--img" src="img/wax0waste-09.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="container--img" src="img/wax0waste-10.jpg">
-                            </div>
-                        </div>
-
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-pagination"></div>
-
-
-                    </div>
-
-                </div>
-                <div class="container--right">
-                    <h1 class="title" style="font-size: 3rem">
-                        Wax 0 Waste
-                    </h1>
-                        <p>
-                            Ho sempre creato  gioelli
-                            ma...
-                        </p>
-                            <p>
-                                questo prodotto per la protezione degli alimenti, sconosciuto nel nostro paese ma molto utilizzato all'estero, mi ha conquìstato!
-                            </p>
-                            <p>
-                                L'ho scoperto in Australia ed ho voluto riprodurlo in Italia utilizzando materiali bio e prodotti locali.
-                            </p>
-                            <p>
-                                Il risultato è un tessuto cerato dal delicato aroma di cocco e miele, gradevole al tatto, malleabile, adesivo, riutilizzabile fino a 12 mesi e piu', perfetto sostituto della pellicola di plastica.
-                            </p>
-                            <p>
-                                Può essere utilizzato per:
-                            </p>
-                            <ul>
-                                <li>
-                                    preservare formaggi,verdure e frutta in frigorifero
-                                </li>
-                                <li>
-                                    coperchio per ciotole o piatti
-                                </li>
-                                <li>
-                                    proteggere spuntini in ufficio
-                                </li>
-                                <li>
-                                    custodire la merenda per la scuola
-                                </li>
-                                <li>
-                                    preservare il pane
-                                </li>
-                                <li>
-                                    contenitore per salatini, patatine per i tuoi party
-                                </li>
-                                <li>
-                                    carta regalo riutilizzabile.
-                                </li>
-                            </ul>
-
-                            <p>
-                                Possibilità di realizzare pellicola o sacco anche con cera di soia per chi desidera
-                                un prodotto vegetale, bio, nel rispetto degli esseri viventi.
-                            </p>
-
-                    <a class="button--buy"  style="margin: 0" href="https://www.etsy.com/it/listing/997951766/100-vegsacco-piccolopellicola-ecologica">
-                        <span>Compralo su <span style="text-decoration: underline">Etsy</span></span>
-                        <img src="/img/icon-window.svg" class="button--buy-icon"/>
-                    </a>
-                </div>
+      <div class="container--left">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img class="container--img" src="img/wrap0waste-00.jpg" />
             </div>
 
-            <div class="divider"></div>
-
-            <div class="container" id="section-2">
-                <img
-                    class="container--bg"
-                    src="/img/bg-02.jpg"
-                    alt="bg-02"
-                    style="opacity: 0.2;"
-                >
-
-                <div class="container--left">
-
-                    <div class="swiper-container">
-                        <div class="swiper-wrapper">
-
-                            <div class="swiper-slide">
-                                <img class="container--img" src="img/wrap0waste-00.jpg">
-                            </div>
-
-                            <div class="swiper-slide">
-                                <img class="container--img" src="img/wrap0waste-01.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="container--img" src="img/wrap0waste-02.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="container--img" src="img/wrap0waste-03.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="container--img" src="img/wrap0waste-04.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="container--img" src="img/wrap0waste-05.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="container--img" src="img/wrap0waste-06.jpg">
-                            </div>
-
-                        </div>
-
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-pagination"></div>
-
-
-                    </div>
-                </div>
-
-                <div class="container--right">
-                    <h1 class="title" style="font-size: 3rem">
-                        Wrap 0 Waste
-                    </h1>
-                            <p>
-                            Nastro di tessuto riciclato e non, di vari colori e materiali, accessorio indispensabile per la ragazza trendy ed ecosostenibile!
-                            </p>
-                            <p>
-                                Ideale per il freddo per o semplicemente per esaltare la tua femminilità!
-                                Utilizzabile anche come cintura.
-                            </p>
-                        <p>
-                            Realizzato artigianalmente con cuciture interne e filo di alluminio.
-                        </p>
-
-                    <a class="button--buy" style="margin: 0" href="https://www.etsy.com/it/listing/996894766/fascia-per-capelli-modellabile-hair-wrap">
-                        <span>Compralo su <span style="text-decoration: underline">Etsy</span></span>
-                        <img src="/img/icon-window.svg" class="button--buy-icon"/>
-                    </a>
-                </div>
-
+            <div class="swiper-slide">
+              <img class="container--img" src="img/wrap0waste-01.jpg" />
             </div>
-
-            <div class="divider"></div>
-
-
-            <div class="container" id="section-3">
-                <img
-                    class="container--bg"
-                    src="/img/bg-02.jpg"
-                    alt="bg-02"
-                    style="opacity: 0.2;"
-                >
-
-                <div class="container--left">
-
-                    <div class="swiper-container">
-                        <div class="swiper-wrapper">
-
-
-                            <div class="swiper-slide">
-                                <img class="container--img" src="img/wash0waste-02.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="container--img" src="img/wash0waste-03.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="container--img" src="img/wash0waste-04.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="container--img" src="img/wash0waste-01.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="container--img" src="img/wash0waste-05.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="container--img" src="img/wash0waste-06.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="container--img" src="img/wash0waste-07.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="container--img" src="img/wash0waste-08.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="container--img" src="img/wash0waste-09.jpg">
-                            </div>
-
-                        </div>
-
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-pagination"></div>
-
-
-                    </div>
-
-                </div>
-                <div class="container--right">
-                    <h1 class="title" style="font-size: 3rem">
-                        Wash 0 Waste
-                    </h1>
-                        <p>
-                            Le spugnette levatrucco Wash Zero Waste, sono realizzate a mano in Italia, lavabili e riutilizzabili a lungo, sono ideali anche in viaggio, grazie al pratico sacchetto in omaggio!
-                        </p>
-                        <p>
-                            CONSIGLI
-                            -Usare per la detersione viso, con latte detergente o acqua micellare.
-                            -Lavare con acqua tiepida e sapone neutro.
-                            -Una volta alla settimana lavare in lavatrice a 40° utilizzando il pratico sacchetto in dotazione.
-                        </p>
-                        <p>
-                            COMPOSIZIONE
-                            - Cotone 100%,
-                            - Microfibra
-                    </p>
-                    <a class="button--buy" style="margin: 0" href="https://www.etsy.com/it/listing/928221706/dischetti-struccantispugnette-levatrucco">
-                        <span>Compralo su <span style="text-decoration: underline">Etsy</span></span>
-                        <img src="/img/icon-window.svg" class="button--buy-icon"/>
-                    </a>
-                </div>
+            <div class="swiper-slide">
+              <img class="container--img" src="img/wrap0waste-02.jpg" />
             </div>
-
-            <div class="divider"></div>
-
-
-            <div class="container" id="section-4">
-                <img
-                    class="container--bg"
-                    src="/img/bg-02.jpg"
-                    alt="bg-02"
-                    style="opacity: 0.2;"
-                >
-
-                <div class="container--left">
-
-                    <div class="swiper-container">
-                        <div class="swiper-wrapper">
-
-                            <div class="swiper-slide">
-                                <img class="container--img" src="img/wire0waste-01.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img class="container--img" src="img/wire0waste-02.jpg">
-                            </div>
-                        </div>
-
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-pagination"></div>
-
-                    </div>
-
-                </div>
-
-
-                <div class="container--right">
-                    <h1 class="title" style="font-size: 3rem">
-                        Wire 0 Waste
-                    </h1>
-                        <p>
-                            Oggettistica per casa e giardino utilizzabile come dissuasori per uccelli, ciotole sospese per nutrire i volatili nelle stagioni fredde,
-                            sostegni per piante aeree, decorazioni vasi e aiuole.
-
-                        </p>
-
-                    <a class="button--buy" style="margin: 0" href="#">
-                        <span>Compralo su <span style="text-decoration: underline">Etsy</span></span>
-                        <img src="/img/icon-window.svg" class="button--buy-icon"/>
-                    </a>
-                </div>
+            <div class="swiper-slide">
+              <img class="container--img" src="img/wrap0waste-03.jpg" />
             </div>
+            <div class="swiper-slide">
+              <img class="container--img" src="img/wrap0waste-04.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img class="container--img" src="img/wrap0waste-05.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img class="container--img" src="img/wrap0waste-06.jpg" />
+            </div>
+          </div>
 
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
 
+      <div class="container--right">
+        <h1 class="title" style="font-size: 3rem">Wrap 0 Waste</h1>
+        <p>
+          Nastro di tessuto riciclato e non, di vari colori e materiali,
+          accessorio indispensabile per la ragazza trendy ed ecosostenibile!
+        </p>
+        <p>
+          Ideale per il freddo per o semplicemente per esaltare la tua
+          femminilità! Utilizzabile anche come cintura.
+        </p>
+        <p>
+          Realizzato artigianalmente con cuciture interne e filo di alluminio.
+        </p>
 
-                <div class="divider"></div>
+        <a
+          class="button--buy"
+          style="margin: 0"
+          href="https://www.etsy.com/it/listing/996894766/fascia-per-capelli-modellabile-hair-wrap"
+        >
+          <span
+            >Compralo su
+            <span style="text-decoration: underline">Etsy</span></span
+          >
+          <img src="/img/icon-window.svg" class="button--buy-icon" />
+        </a>
+      </div>
+    </div>
 
-            <h1 id="linkutili" class="title" style="margin: 2rem">
-                Link Utili
-            </h1>
+    <div class="divider"></div>
 
+    <div class="container" id="section-3">
+      <img
+        class="container--bg"
+        src="/img/bg-02.jpg"
+        alt="bg-02"
+        style="opacity: 0.2"
+      />
 
-            <div class="divider"></div>
+      <div class="container--left">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img class="container--img" src="img/wash0waste-02.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img class="container--img" src="img/wash0waste-03.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img class="container--img" src="img/wash0waste-04.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img class="container--img" src="img/wash0waste-01.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img class="container--img" src="img/wash0waste-05.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img class="container--img" src="img/wash0waste-06.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img class="container--img" src="img/wash0waste-07.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img class="container--img" src="img/wash0waste-08.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img class="container--img" src="img/wash0waste-09.jpg" />
+            </div>
+          </div>
 
-            <footer-component></footer-component>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <div class="container--right">
+        <h1 class="title" style="font-size: 3rem">Wash 0 Waste</h1>
+        <p>
+          Le spugnette levatrucco Wash Zero Waste, sono realizzate a mano in
+          Italia, lavabili e riutilizzabili a lungo, sono ideali anche in
+          viaggio, grazie al pratico sacchetto in omaggio!
+        </p>
+        <p>
+          CONSIGLI -Usare per la detersione viso, con latte detergente o acqua
+          micellare. -Lavare con acqua tiepida e sapone neutro. -Una volta alla
+          settimana lavare in lavatrice a 40° utilizzando il pratico sacchetto
+          in dotazione.
+        </p>
+        <p>COMPOSIZIONE - Cotone 100%, - Microfibra</p>
+        <a
+          class="button--buy"
+          style="margin: 0"
+          href="https://www.etsy.com/it/listing/928221706/dischetti-struccantispugnette-levatrucco"
+        >
+          <span
+            >Compralo su
+            <span style="text-decoration: underline">Etsy</span></span
+          >
+          <img src="/img/icon-window.svg" class="button--buy-icon" />
+        </a>
+      </div>
+    </div>
 
+    <div class="divider"></div>
+
+    <div class="container" id="section-4">
+      <img
+        class="container--bg"
+        src="/img/bg-02.jpg"
+        alt="bg-02"
+        style="opacity: 0.2"
+      />
+
+      <div class="container--left">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img class="container--img" src="img/wire0waste-01.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img class="container--img" src="img/wire0waste-02.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img class="container--img" src="img/wire0waste-03.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img class="container--img" src="img/wire0waste-04.jpg" />
+            </div>
+          </div>
+
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+      <div class="container--right">
+        <h1 class="title" style="font-size: 3rem">Wire 0 Waste</h1>
+        <p>
+          Oggettistica per casa e giardino utilizzabile come dissuasori per
+          uccelli, ciotole sospese per nutrire i volatili nelle stagioni fredde,
+          sostegni per piante aeree, decorazioni vasi e aiuole.
+        </p>
+
+        <a
+          class="button--buy"
+          style="margin: 0"
+          href="https://www.etsy.com/it/listing/1012198620/spaventapasseri-campanelle-a-vento"
+        >
+          <span
+            >Compralo su
+            <span style="text-decoration: underline">Etsy</span></span
+          >
+          <img src="/img/icon-window.svg" class="button--buy-icon" />
+        </a>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <h1 id="linkutili" class="title" style="margin: 2rem">Link Utili</h1>
+    <ul>
+      <li>
+        <a href="https://www.autoproduciamo.it/"> Autoproduciamo</a>
+      </li>
+      <li>
+        <a href="https://www.lasaponaria.it/">La saponaria</a>
+      </li>
+      <li>
+        <a href="https://www.macrolibrarsi.it/">Macrolibrarsi</a>
+      </li>
+      <li>
+        <a href="https://www.decrescitafelice.it/">Decrescita Felice</a>
+      </li>
+      <li>
+        <a href="https://www.alvearechedicesi.it/">Alveare che dice sì</a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/boscodiogigia/">Bosco di Ogigia</a>
+      </li>
+      <li>
+        <a href="https://www.ortodacoltivare.it/">Orto da coltivare</a>
+      </li>
+    </ul>
+
+    <h2 class="title" style="margin: 2rem">Youtube</h2>
+    <ul>
+      <li>
+        <a href="https://www.ortodacoltivare.it/">Orto da coltivare</a>
+      </li>
+      <li>
+        <a href="https://youtube.com/c/Stilenaturale_guida_online">
+          Stile Naturale
+        </a>
+      </li>
+      <li>
+        <a href="https://youtube.com/channel/UC30jnXc2hZgRQmrFu-E8cTw">
+          Seva Project
+        </a>
+      </li>
+      <li>
+        <a href="https://youtube.com/c/MoragGambleOurPermacultureLife">
+          Morag Gamble : Our Permaculture Life
+        </a>
+      </li>
+      <li>
+        <a href="https://youtube.com/user/supertranquillo"> Supertranquillo </a>
+      </li>
+      <li>
+        <a href="https://youtube.com/channel/UCcPkCkMt-anWF0Byn0mzbDA">
+          Emile Jacquet
+        </a>
+      </li>
+      <li>
+        <a href="https://youtube.com/channel/UCmoy4bngZT2pr9ysDYZIp6g">
+          I video di Claus
+        </a>
+      </li>
+    </ul>
+
+    <div class="divider"></div>
+
+    <footer-component></footer-component>
 
     <!--SCRIPTS-->
 
     <!--COOKIE-->
-    <script type="text/javascript"
-    id="cookiebanner"
-    src="js/cookie.js"
-    data-z-index= "999"
-    data-font-size= "18px"
-    data-padding= "25px"
-    data-text-align = "left"
-    data-linkmsg =""
-    data-moreinfo = "cookie-policy.html"
-    data-message="
-    Questo sito fa uso di cookie. Può conoscere i dettagli consultando la nostra <a href='cookie-policy.html'>cookie policy</a>.
-    Proseguendo nella navigazione si accetta l’uso dei cookie; in caso contrario è possibile abbandonare il sito.
+    <script
+      type="text/javascript"
+      id="cookiebanner"
+      src="js/cookie.js"
+      data-z-index="999"
+      data-font-size=".75rem"
+      data-padding=".5rem"
+      data-text-align="left"
+      data-linkmsg=""
+      data-moreinfo="cookie-policy.html"
+      data-message="
+    Questo sito utilizza i <a href='cookie-policy.html'>cookie </a> per migliorare la tua esperienza. 
+    Chiudendo questo banner, scorrendo questa pagina, cliccando su un link o proseguendo la navigazione in altra maniera, acconsenti all’uso dei cookie.
     "
     ></script>
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script async src="https://cdn.volument.com/v1/volument.js" onload="volument('4ef2accc4e')"></script>
+    <script
+      async
+      src="https://cdn.volument.com/v1/volument.js"
+      onload="volument('4ef2accc4e')"
+    ></script>
     <script src="js/script.js" async></script>
 
-<!-- END SCRIPTS -->
-
-</body>
+    <!-- END SCRIPTS -->
+  </body>
 </html>
