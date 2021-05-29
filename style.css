@@ -510,6 +510,11 @@ ul {
     text-align: center;
     align-items: center;
     height: 100%;
+    padding: 2rem 0;
+  }
+
+  .container--right > p {
+    padding: 1rem;
   }
 
   .card {

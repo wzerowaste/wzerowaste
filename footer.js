@@ -12,7 +12,7 @@ class Footer extends HTMLElement {
         <!--Footer-->
             <div class="container" >
                 <img
-                class="container--bg-jumbotron"
+                class="container--bg"
                 src="/img/bg-01.jpg"
                 alt="bg-01"
             >
