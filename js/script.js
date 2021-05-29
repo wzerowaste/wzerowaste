@@ -5,6 +5,13 @@ function toggleDropdownMenu() {
   menuDropdown.style.zIndex = "999";
 }
 
+// Container Dropdown Menu
+function toggleContainerDropdownMenu() {
+  let containerDropdown = document.querySelector("#container--menu-dropdown");
+  containerDropdown.classList.toggle("container--menu-is-visible");
+  containerDropdown.style.zIndex = "999";
+}
+
 // SwiperJs
 const swiper = new Swiper(".swiper-container", {
   direction: "horizontal",
