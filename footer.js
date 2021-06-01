@@ -7,7 +7,7 @@ class Footer extends HTMLElement {
 
         <!--Go To Top-->
         
-        <img onclick="goToTop()" id="button--go-up" src="img/icon-arrowup.svg" />
+        <img onclick="goToTop()" id="button--go-up" src="img/icon/icon-arrowup.svg" />
         
         <!--Footer-->
             <div class="container" >
@@ -30,13 +30,13 @@ class Footer extends HTMLElement {
 
                 <div class="container--social" style="z-index: 3; margin-left: 1rem;">
                     <a href="https://www.instagram.com/selenacreativejewelry/" target="_blank">
-                        <img class="social--img" src="/img/icon-insta.svg" />
+                        <img class="social--img" src="/img/icon/icon-insta.svg" />
                     </a>
                     <a href="https://www.facebook.com/selenacreativejewelry" target="_blank">
-                        <img class="social--img" style="width: 43px" src="/img/icon-face.svg" />
+                        <img class="social--img" style="width: 43px" src="/img/icon/icon-face.svg" />
                     </a>
                     <a  href="http://www.etsy.com/it/shop/WaxZeroWaste" target="_blank">
-                        <img class="social--img" src="/img/icon-etsy.svg" />
+                        <img class="social--img" src="/img/icon/icon-etsy.svg" />
 
                     </a>
                 </div>
@@ -47,4 +47,4 @@ class Footer extends HTMLElement {
   }
 }
 
-customElements.define("footer-component", Footer);
+customElements.define('footer-component', Footer);
