@@ -5,6 +5,7 @@ class Navbar extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
 
+    
         <!--Navbar-->
         <div class="navbar">
             <div class="navbar--logo">

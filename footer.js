@@ -13,6 +13,7 @@ class Footer extends HTMLElement {
             <div class="container" >
                 <img
                 class="container--bg"
+                style="height: auto";
                 src="/img/bg-01.jpg"
                 alt="bg-01"
             >
@@ -47,4 +48,4 @@ class Footer extends HTMLElement {
   }
 }
 
-customElements.define('footer-component', Footer);
+customElements.define("footer-component", Footer);

@@ -74,14 +74,6 @@ body {
   flex-direction: column;
 }
 
-.container-wax {
-  /* overflow: hidden; */
-  position: relative;
-  display: flex;
-  justify-content: center;
-  /* align-items: center; */
-}
-
 .container--fixedheight {
   height: 100vh;
 }
@@ -488,12 +480,6 @@ option {
 
   .container {
     flex-direction: column;
-  }
-
-  .container-wax {
-    flex-direction: column;
-  }
-  .container--p {
   }
 
   .container--left {
