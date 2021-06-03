@@ -12,13 +12,13 @@ class Navbar extends HTMLElement {
                 W Zero Waste
             </div>
             <div class="navbar--menu">
-                <a href="#prodotti">
+                <a href="index.html#prodotti">
                     Prodotti
                 </a>
-                <a href="#eventi">
+                <a href="events.html">
                     Eventi
                 </a>
-                <a href="#linkutili">
+                <a href="index.html#linkutili">
                     Link Utili
                 </a>
             </div>

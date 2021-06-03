@@ -13,9 +13,8 @@ class Footer extends HTMLElement {
             <div class="container" >
                 <img
                 class="container--bg"
-                style="height: auto";
+                style=;
                 src="/img/bg-01.jpg"
-                alt="bg-01"
             >
                 <div class="container--left">
                     <h1 class="title" style="font-size: 5rem">
