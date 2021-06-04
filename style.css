@@ -1,3 +1,10 @@
+:root {
+  --main-color: #852231;
+  --swiper-navigation-color: #852231;
+  --swiper-theme-color: #852231;
+  --swiper-pagination-color: #852231;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -16,7 +23,7 @@ body {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: rgb(160, 31, 67);
+  background-color: var(--main-color);
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -31,7 +38,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(160, 31, 67);
+  background-color: var(--main-color);
   color: white;
 }
 
@@ -54,7 +61,7 @@ body {
 
 .navbar--menu > a:hover {
   background-color: white;
-  color: rgb(160, 31, 67);
+  color: var(--main-color);
 }
 
 .container {
@@ -166,7 +173,7 @@ body {
   padding: 0.5rem;
   cursor: pointer;
   background-color: rgba(255, 255, 255, 0.746);
-  border: 2px solid #852231;
+  border: 2px solid var(--main-color);
   margin: 0.5rem;
 }
 
@@ -178,9 +185,9 @@ body {
   padding: 0.5rem;
   cursor: pointer;
   background-color: rgba(255, 255, 255, 0.746);
-  border: 2px solid #852231;
+  border: 2px solid var(--main-color);
   margin: 0.5rem;
-  color: #852231;
+  color: var(--main-color);
 }
 
 .menu-row {
@@ -205,7 +212,7 @@ body {
   width: 100vw;
   transition: all 0.3s ease-in-out;
   z-index: 99999;
-  background-color: rgb(160, 31, 67);
+  background-color: var(--main-color);
 }
 
 .navbar--menu-dropdown > a {
@@ -216,7 +223,7 @@ body {
 
 .navbar--menu-dropdown > a:hover {
   background-color: white;
-  color: rgb(160, 31, 67);
+  color: var(--main-color);
 }
 
 .navbar--menu-burger {
@@ -254,7 +261,7 @@ body {
   padding-left: 0.5rem;
   transition: all 0.3s ease-in-out;
   z-index: 9999;
-  background-color: rgb(160, 31, 67);
+  background-color: var(--main-color);
   height: 50vh;
 }
 
@@ -266,7 +273,7 @@ body {
 
 .container--menu-dropdown > a:hover {
   background-color: white;
-  color: rgb(160, 31, 67);
+  color: var(--main-color);
 }
 
 .container--menu-is-visible {
@@ -297,10 +304,6 @@ ul {
   flex-direction: column;
 }
 
-.swiper-pagination-bullet {
-  background: white;
-}
-
 .cookie-container {
   padding: 15px;
   font-size: 14px;
@@ -309,7 +312,7 @@ ul {
 }
 
 .cookiebanner {
-  background-color: rgb(160, 31, 67);
+  background-color: var(--main-color);
 }
 
 .divider {
@@ -325,7 +328,7 @@ ul {
 }
 
 option {
-  background-color: rgb(160, 31, 67);
+  background-color: var(--main-color);
 }
 .events {
   margin: 2rem;
@@ -355,12 +358,12 @@ option {
 
 .title {
   font-weight: 700;
-  color: #852231;
+  color: var(--main-color);
   text-align: center;
 }
 
 .button {
-  background-color: #852231;
+  background-color: var(--main-color);
   border: none;
   color: black;
   padding: 1rem;
@@ -373,14 +376,14 @@ option {
 }
 
 .button:hover {
-  background-color: rgb(160, 31, 67);
+  background-color: var(--main-color);
 }
 
 .button--buy {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #852231;
+  background-color: var(--main-color);
   color: white;
   width: 25vw;
   padding: 1rem;
@@ -392,7 +395,7 @@ option {
 }
 
 .button--buy:hover {
-  background-color: rgb(160, 31, 67);
+  background-color: var(--main-color);
 }
 
 .button--buy-icon {
@@ -428,9 +431,12 @@ option {
 }
 
 .card--title {
-  color: #852231;
+  color: var(--main-color);
 }
 
+li > a {
+  color: var(--main-color);
+}
 /* Swiper */
 .swiper-container {
   width: 50vw;
@@ -438,6 +444,23 @@ option {
   object-fit: cover;
 }
 
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: rgba(255, 255, 255, 0.79);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: white;
+  opacity: 0.8;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--main-color);
+}
 /* End Swiper */
 
 .hidden-on-desktop {
