@@ -32,13 +32,13 @@ class Navbar extends HTMLElement {
     
             <div id="navbar--menu-dropdown" 
                 class="navbar--menu-dropdown navbar--menu-is-visible">
-                    <a href="#prodotti">
+                    <a href="index.html#prodotti">
                         Prodotti
                     </a>
-                    <a href="#eventi">
+                    <a href="events.html">
                         Eventi
                     </a>
-                    <a href="#linkutili">
+                    <a href="index.html#linkutili">
                         Link Utili
                     </a>
                     

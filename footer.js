@@ -24,7 +24,7 @@ class Footer extends HTMLElement {
 
                 <div style="z-index: 3">
                     <a style="color: #852231" href="cookie-policy.html">Cookies</a>
-                    <hr />
+                    <hr style="opacity:0"/>
                     <a style="color: #852231" href="privacy-policy.html">Privacy</a>
                 </div>
 

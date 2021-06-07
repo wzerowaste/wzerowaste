@@ -167,6 +167,13 @@ body {
   text-decoration: none;
 }
 
+.social--col {
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--main-color);
+}
 .social--img {
   width: 50px;
   object-fit: cover;
