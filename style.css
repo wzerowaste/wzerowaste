@@ -397,12 +397,11 @@ option {
   border-radius: 999rem;
   text-decoration: none;
   text-align: center;
-  /* font-weight: 600; */
   font-size: 1.2rem;
 }
 
 .button--buy:hover {
-  background-color: var(--main-color);
+  background-color: #5c151f;
 }
 
 .button--buy-icon {
@@ -470,6 +469,50 @@ li > a {
 }
 /* End Swiper */
 
+/* Start Collapsible */
+
+/* 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-color);
+  color: white;
+  width: 25vw;
+  padding: 1rem;
+  border-radius: 999rem;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.2rem; */
+.collapsible {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 1rem;
+  width: 25vw;
+  border: 1px solid black;
+  border-radius: 999rem;
+  outline: none;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.active,
+.collapsible:hover {
+  background-color: rgb(228, 228, 228);
+}
+
+.content {
+  width: 25vw;
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+/* End Collapsible */
+
 .hidden-on-desktop {
   display: flex;
 }
@@ -523,11 +566,11 @@ li > a {
 
   .container--bg-jumbotron {
     top: -50vh;
-    height: 150%;
+    height: 100%;
   }
 
   .container--bg {
-    top: -20vh;
+    top: -5vh;
     height: 150%;
     object-fit: cover;
   }
