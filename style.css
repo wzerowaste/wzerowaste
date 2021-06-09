@@ -469,21 +469,9 @@ li > a {
 }
 /* End Swiper */
 
-/* Start Collapsible */
+/* Start Modal */
 
-/* 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--main-color);
-  color: white;
-  width: 25vw;
-  padding: 1rem;
-  border-radius: 999rem;
-  text-decoration: none;
-  text-align: center;
-  font-size: 1.2rem; */
-.collapsible {
+.instructions--button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -497,21 +485,57 @@ li > a {
   outline: none;
   font-size: 1.2rem;
   margin-bottom: 1rem;
+  margin-top: 0.5rem;
 }
 
 .active,
-.collapsible:hover {
+.instructions--button:hover {
   background-color: rgb(228, 228, 228);
 }
 
-.content {
-  width: 25vw;
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
+.instructions--is-visible {
+  display: none;
+  opacity: 0;
+  height: 0;
+  transition: all 0.3s ease-in-out;
+  z-index: -9999;
 }
-/* End Collapsible */
+
+.instructions--modal {
+  opacity: 1;
+  overflow-y: scroll;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 1rem;
+  transition: all 0.3s ease-in-out;
+  z-index: 9999;
+  background-color: white;
+  border: 1px solid black;
+  height: 70vh;
+  width: 70vw;
+  top: 50%;
+  left: 50%;
+  margin-top: -35vh;
+  margin-left: -35vw;
+}
+
+.instructions--close {
+  margin-top: -2rem;
+  position: fixed;
+  color: white;
+  background-color: black;
+  padding: 0.5rem;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 999rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* End Modal */
 
 .hidden-on-desktop {
   display: flex;
@@ -616,6 +640,15 @@ li > a {
 
   .button--buy {
     width: 50vw;
+  }
+
+  .instructions--modal {
+    height: 70vh;
+    width: 90vw;
+    top: 50%;
+    left: 0;
+    margin-top: -35vh;
+    margin-left: 0;
   }
 
   .hidden-on-desktop {
