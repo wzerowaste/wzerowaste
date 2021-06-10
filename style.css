@@ -508,6 +508,8 @@ li > a {
   position: fixed;
   display: flex;
   flex-direction: column;
+  text-align: flex-start;
+  align-items: flex-start;
   margin: 0;
   padding: 1rem;
   transition: all 0.3s ease-in-out;
@@ -520,11 +522,13 @@ li > a {
   left: 50%;
   margin-top: -35vh;
   margin-left: -35vw;
+  font-size: 1rem;
 }
 
 .instructions--close {
   margin-top: -2rem;
   position: fixed;
+  right: 2rem;
   color: white;
   background-color: black;
   padding: 0.5rem;
@@ -534,6 +538,7 @@ li > a {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 99999;
 }
 
 /* End Modal */
