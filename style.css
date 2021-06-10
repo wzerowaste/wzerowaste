@@ -154,6 +154,7 @@ body {
   width: 50vw;
   height: 100%;
   object-fit: cover;
+  background-color: lightGrey;
 }
 
 .container--buttons {
@@ -635,7 +636,6 @@ li > a {
     width: 100vw;
     height: 100%;
     object-fit: contain;
-    background-color: lightGrey;
   }
 
   .button--buy {
