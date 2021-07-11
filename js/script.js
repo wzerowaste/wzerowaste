@@ -47,8 +47,6 @@ function toggleDropdownMenu() {
 
 // SwiperJs
 const swiper = new Swiper(".swiper-container", {
-  preloadImages: true,
-  lazy: true,
   direction: "horizontal",
   loop: true,
   spaceBetween: 30,
