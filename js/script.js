@@ -46,11 +46,15 @@ function toggleDropdownMenu() {
 }
 
 // SwiperJs
+// const swiper = this.swiper;
+// swiper.loopDestroy();
+// swiper.loopCreate();
 const swiper = new Swiper(".swiper-container", {
   direction: "horizontal",
   spaceBetween: 30,
   pagination: {
     el: ".swiper-pagination",
+    clickable: true,
     // dynamicBullets: true,
   },
   keyboard: {
