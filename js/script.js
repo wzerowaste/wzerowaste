@@ -48,7 +48,6 @@ function toggleDropdownMenu() {
 // SwiperJs
 const swiper = new Swiper(".swiper-container", {
   direction: "horizontal",
-  loop: true,
   spaceBetween: 30,
   pagination: {
     el: ".swiper-pagination",
