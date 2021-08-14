@@ -13,14 +13,10 @@ class Footer extends HTMLElement {
             <div class="container" >
                 <img
                 class="container--bg"
-                style=;
                 src="/img/bg-01.jpg"
             >
-                <div class="container--left">
-                    <h1 class="title" style="font-size: 5rem">
-                        W Zero Waste
-                    </h1>
-                </div>
+
+            <img class="logo" style="z-index: 3" src="/img/wow-logo-small.png" alt="logo" />
 
                 <div style="z-index: 3">
                     <a style="color: #852231" href="cookie-policy.html">Cookies</a>
@@ -33,7 +29,7 @@ class Footer extends HTMLElement {
                         <img class="social--img" src="/img/icon/icon-insta.svg" />
                     </a>
                     <a href="https://www.facebook.com/selenacreativejewelry" target="_blank">
-                        <img class="social--img" style="width: 43px" src="/img/icon/icon-face.svg" />
+                        <img class="social--img" style="width: 32px" src="/img/icon/icon-face.svg" />
                     </a>
                     <a  href="http://www.etsy.com/it/shop/WaxZeroWaste" target="_blank">
                         <img class="social--img" src="/img/icon/icon-etsy.svg" />
