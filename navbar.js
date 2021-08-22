@@ -23,6 +23,7 @@ class Navbar extends HTMLElement {
                 <a href="index.html#linkutili">
                     Link Utili
                 </a>
+                
             </div>
     
             <div
@@ -45,8 +46,14 @@ class Navbar extends HTMLElement {
                     </a>
                     
             </div>
-    
+            <div id="lang" style="margin-top: .5rem;margin-right: 1rem;">
+                LANGUAGE
+                <div id="google_translate_element"></div>
+            </div>
+
         </div>
+        
+        
     <!--End Navbar-->
     `;
   }

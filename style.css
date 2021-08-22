@@ -5,6 +5,14 @@
   --swiper-pagination-color: #852231;
 }
 
+.goog-logo-link {
+  display: none !important;
+}
+
+.goog-te-gadget {
+  color: transparent !important;
+}
+
 html {
   scroll-behavior: smooth;
   font-size: calc(18px + 0.25vw);
@@ -357,7 +365,8 @@ ul {
 }
 
 option {
-  background-color: var(--main-color);
+  background-color: white;
+  color: black;
 }
 .events {
   margin: 2rem;
