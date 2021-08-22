@@ -13,6 +13,12 @@ class Navbar extends HTMLElement {
 
                 <p style="display: flex;margin: 0">W Zero Waste</p>
             </div>
+
+            <div id="lang" style="margin-top: .5rem;margin-right: 1rem;">
+                Scegli linguaggio:
+                <div id="google_translate_element"></div>
+            </div>
+
             <div class="navbar--menu">
                 <a href="index.html#prodotti">
                     Prodotti
@@ -46,10 +52,7 @@ class Navbar extends HTMLElement {
                     </a>
                     
             </div>
-            <div id="lang" style="margin-top: .5rem;margin-right: 1rem;">
-                LANGUAGE
-                <div id="google_translate_element"></div>
-            </div>
+            
 
         </div>
         
