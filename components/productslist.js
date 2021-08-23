@@ -84,7 +84,7 @@ class ProductsList extends HTMLElement {
           </div>
           <div class="card" id="card-10">
             <h2 class="card--title">Wild 0 Waste</h2>
-            <img class="card--img" src="../img/wild0waste/wild0waste-01.jpg" alt="img"/>
+            <img class="card--img" src="../img/wild0waste/wild0waste-04.jpg" alt="img"/>
 
             <p>"Terra di Brianza" e kit per autoproduzioni veg 100%</p>
             <a class="button" href="wild0waste.html"> Vedi prodotti </a>
