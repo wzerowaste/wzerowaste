@@ -4,10 +4,22 @@ class Footer extends HTMLElement {
   }
   connectedCallback() {
     this.innerHTML = `
-
-        <!--Go To Top-->
+    
+      <!--Go To Top-->
         
         <img onclick="goToTop()" id="button--go-up" src="img/icon/icon-arrowup.svg" />
+
+       <p class="container--p">
+      Ho sempre creato gioelli ma... La passione per il giardinaggio ed un
+      viaggio in Australia mi hanno avvicinato ulteriormente al mondo della
+      sostenibilità e permacoltura. Impatto zero, riciclo creativo, zero sprechi
+      e autoproduzione sono tematiche che ho approfondito e che mi hanno
+      permesso di realizzare prodotti per la mia casa e il mio giardino. La
+      realizzazione di un orto sinergico mi ha fatto sperimentare nuovi metodi e
+      antiche conoscenze sulla cura del suolo. Questo e il mio mondo!
+    </p>
+
+        
         
         <!--Footer-->
             <div class="container" >

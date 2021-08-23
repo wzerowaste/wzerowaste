@@ -8,11 +8,11 @@ class Navbar extends HTMLElement {
     
         <!--Navbar-->
         <div class="navbar">
-            <div class="navbar--logo">
+            <a style="color: white; text-decoration: none" href="index.html" class="navbar--logo">
                   <img class="logo--navbar" src="/img/wow-logo-small-invert.png" alt="logo" />
 
-                <p style="display: flex;margin: 0">W Zero Waste</p>
-            </div>
+                <p style="display: flex;margin: 0">WOW</p>
+            </a>
 
             <div id="lang" style="margin-top: .5rem;margin-right: 1rem;">
                 Scegli linguaggio:
