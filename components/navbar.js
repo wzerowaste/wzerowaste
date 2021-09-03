@@ -52,8 +52,7 @@ class Navbar extends HTMLElement {
                     </a>
                     
             </div>
-            
-
+        
         </div>
         
         
