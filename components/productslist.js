@@ -110,6 +110,15 @@ class ProductsList extends HTMLElement {
             </p> -->
             <a class="button" href="wellness0waste.html"> Vedi prodotti </a>
           </div>
+
+          <div class="card" id="card-13">
+            <h2 class="card--title">Wardrobe 0 Waste</h2>
+          <img class="card--img" src="../img/wardrobe0waste/wardrobe0waste-01.jpg" alt="img"/>
+
+            <p>Profumatore veg artigianale per armadi e cassetti</p>
+            <a class="button" href="wardrobe0waste.html"> Vedi prodotti </a>
+          </div>
+
         </div>
       </div>
     </div>
