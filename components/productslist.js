@@ -36,7 +36,8 @@ class ProductsList extends HTMLElement {
             <h2 class="card--title">Wash 0 Waste</h2>
             <img class="card--img" src="../img/wash0waste/wash0waste-01.jpg" alt="img"/>
 
-            <p>Spugnette levatrucco ecologiche realizzate a mano e saponi veg con glicerina e sorpresa</p>
+            <p>Spugnette levatrucco ecologiche realizzate a mano</p>
+            <p style="margin-top: -30px">Saponi veg con glicerina e sorpresa</p>
             <a class="button" href="wash0waste.html"> Vedi prodotti </a>
           </div>
           <div class="card" id="card-4">

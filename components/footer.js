@@ -16,7 +16,7 @@ class Footer extends HTMLElement {
       e autoproduzione sono tematiche che ho approfondito e che mi hanno
       permesso di realizzare prodotti per la mia casa e il mio giardino. La
       realizzazione di un orto sinergico mi ha fatto sperimentare nuovi metodi e
-      antiche conoscenze sulla cura del suolo. Questo e il mio mondo!
+      antiche conoscenze sulla cura del suolo. Questo e il mio mondo, vieni a scoprirlo!
     </p>
 
         
