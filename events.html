@@ -17,6 +17,7 @@
     <script src="js/script.js" async></script>
     <link rel="stylesheet" href="js/swiper-bundle.css" />
     <script src="js/swiper-bundle.js"></script>
+    <script src="components/productslist.js" async></script>
 
     <title>Eventi | W Zero Waste</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -52,9 +53,53 @@
     <navbar-component></navbar-component>
     <!-- EVENTI -->
 
-    <h1 id="eventi" class="title" style="margin: 2rem">Foto dagli eventi</h1>
+    <h1 id="eventi" class="title" style="margin: 2rem">Prossimi Eventi 2021</h1>
+
+    <div class="events">
+      <div class="events--content">
+        <p>Cassina de Pecchi - Ogni seconda domenica del mese</p>
+      </div>
+    </div>
+
+    <div class="events">
+      <div class="events--content">
+        <img
+          class="events--img"
+          src="img/events/10-2021-happy-halloween-cogliate.jpg"
+        />
+      </div>
+
+      <div class="events--content">
+        <div class="events--text">
+          <h3 class="title">Happy Halloween Cogliate</h3>
+          <h4>31 ottobre 2021</h4>
+          <p>Cogliate (MB)</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="events">
+      <div class="events--content">
+        <img
+          class="events--img"
+          src="img/events/10-2021-arese-verde-in-festa.jpg"
+        />
+      </div>
+
+      <div class="events--content">
+        <div class="events--text">
+          <h3 class="title">Arese verde in festa</h3>
+          <h4>9 ottobre 2021</h4>
+          <p>Arese (MI)</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
 
     <!-- Swiper -->
+    <h1 id="eventi" class="title" style="margin: 2rem">Foto dagli eventi</h1>
+
     <div class="container--left">
       <div class="swiper-container">
         <div class="swiper-wrapper">
@@ -101,23 +146,6 @@
         <div class="swiper-pagination"></div>
       </div>
     </div>
-
-    <div class="divider"></div>
-
-    <h1 id="eventi" class="title" style="margin: 2rem">Prossimi Eventi 2021</h1>
-
-    <div class="events">
-      <div class="events--content">
-        <p>Cassina de Pecchi - Ogni seconda domenica del mese</p>
-      </div>
-    </div>
-
-    <div class="events">
-      <div class="events--content">
-        <p>Cogliate - 31 ottobre 2021</p>
-      </div>
-    </div>
-
     <div class="divider"></div>
 
     <h1 id="eventi" class="title" style="margin: 2rem">Eventi passati</h1>
@@ -143,7 +171,7 @@
       <div class="events--content">
         <img
           class="events--img"
-          src="img/events/05-21-tutti-giu-per-terra.jpg"
+          src="img/events/05-2021-tutti-giu-per-terra.jpg"
         />
       </div>
 
@@ -193,6 +221,9 @@
     <div class="divider"></div>
 
     <!-- END EVENTI -->
+
+    <productslist-component></productslist-component>
+
     <footer-component></footer-component>
 
     <!--COOKIE-->
