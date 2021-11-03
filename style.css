@@ -11,6 +11,10 @@
 
 .goog-logo-link,
 .goog-te-banner-frame {
+a {
+  color: transparent;
+}
+.goog-logo-link {
   display: none !important;
 }
 
@@ -199,9 +203,6 @@ body {
 }
 
 .container--social {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   text-decoration: none;
 }
 
@@ -657,7 +658,6 @@ li > a {
   .container--right > p {
     padding: 1rem;
   }
-
   .card {
     width: 50vw;
   }

@@ -282,41 +282,49 @@ button.swiper-pagination-bullet {
   top: 50%;
   transform: translate3d(0px, -50%, 0);
 }
-.swiper-container-vertical
+.swiper
+  mySwiper-vertical
   > .swiper-pagination-bullets
   .swiper-pagination-bullet {
   margin: 6px 0;
   display: block;
 }
-.swiper-container-vertical
+.swiper
+  mySwiper-vertical
   > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
   top: 50%;
   transform: translateY(-50%);
   width: 8px;
 }
-.swiper-container-vertical
+.swiper
+  mySwiper-vertical
   > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic
   .swiper-pagination-bullet {
   display: inline-block;
   transition: 0.2s transform, 0.2s top;
 }
-.swiper-container-horizontal
+.swiper
+  mySwiper-horizontal
   > .swiper-pagination-bullets
   .swiper-pagination-bullet {
   margin: 0 4px;
 }
-.swiper-container-horizontal
+.swiper
+  mySwiper-horizontal
   > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
   left: 50%;
   transform: translateX(-50%);
   white-space: nowrap;
 }
-.swiper-container-horizontal
+.swiper
+  mySwiper-horizontal
   > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic
   .swiper-pagination-bullet {
   transition: 0.2s transform, 0.2s left;
 }
-.swiper-container-horizontal.swiper-container-rtl
+.swiper
+  mySwiper-horizontal.swiper
+  mySwiper-rtl
   > .swiper-pagination-bullets-dynamic
   .swiper-pagination-bullet {
   transition: 0.2s transform, 0.2s right;
@@ -335,20 +343,23 @@ button.swiper-pagination-bullet {
   transform: scale(0);
   transform-origin: left top;
 }
-.swiper-container-rtl
+.swiper
+  mySwiper-rtl
   .swiper-pagination-progressbar
   .swiper-pagination-progressbar-fill {
   transform-origin: right top;
 }
 .swiper-container-horizontal > .swiper-pagination-progressbar,
-.swiper-container-vertical
+.swiper
+  mySwiper-vertical
   > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
   width: 100%;
   height: 4px;
   left: 0;
   top: 0;
 }
-.swiper-container-horizontal
+.swiper
+  mySwiper-horizontal
   > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite,
 .swiper-container-vertical > .swiper-pagination-progressbar {
   width: 4px;

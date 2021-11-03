@@ -91,9 +91,11 @@
     <script src="js/web-components.js" async></script>
     <script src="components/footer.js" defer></script>
     <script src="components/navbar.js" defer></script>
-    <link rel="stylesheet" href="js/swiper-bundle.css" />
-    <script src="components/productslist.js" async></script>
-
+    <script src="js/script.js" async></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
     <title>Eventi | W Zero Waste</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
@@ -179,6 +181,9 @@
       <div class="swiper-container">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
+            <img class="container--img" src="img/events/mercatino-00.jpg" />
+          </div>
+          <div class="swiper-slide">
             <img class="container--img" src="img/events/mercatino-01.jpg" />
           </div>
           <div class="swiper-slide">
@@ -233,6 +238,17 @@
         <div class="swiper-pagination"></div>
       </div>
     </div>
+
+    <div class="divider"></div>
+
+    <h1 id="eventi" class="title" style="margin: 2rem">Prossimi Eventi 2021</h1>
+
+    <div class="events">
+      <div class="events--content">
+        <p>Cassina de Pecchi - Ogni seconda domenica del mese</p>
+      </div>
+    </div>
+
     <div class="divider"></div>
 
     <h1 id="eventi" class="title" style="margin: 2rem">Eventi passati</h1>
@@ -330,6 +346,6 @@
     ></script>
 
     <script src="js/script.js" async></script>
-    <script src="js/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
   </body>
 </html>
