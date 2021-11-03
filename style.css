@@ -11,6 +11,8 @@
 
 .goog-logo-link,
 .goog-te-banner-frame {
+  display: none;
+}
 a {
   color: transparent;
 }
