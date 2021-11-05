@@ -45,7 +45,7 @@ function toggleDropdownMenu() {
   menuDropdown.style.zIndex = "999";
 }
 
-const swiper = new Swiper(".swiper-container", {
+const swiper = new Swiper(".mySwiper", {
   direction: "horizontal",
   spaceBetween: 30,
   pagination: {
