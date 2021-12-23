@@ -101,14 +101,11 @@ class ProductsList extends HTMLElement {
             <a class="button" href="wood0waste.html"> Vedi prodotti </a>
           </div>
           <div class="card" id="card-12">
-            <h2 class="card--title">Wellness 0 Waste (Wow Pet)</h2>
+            <h2 class="card--title">Wellness 0 Waste</h2>
           <img class="card--img" src="../img/wellness0waste/wellness0waste-01.jpg" alt="img"/>
 
-            <p>Per il benessere dei nostri animali</p>
-            <!-- <p>
-              Abbeveratoio animali in tessuto WOW cerato a mano per alimenti,
-              lavabile e compostabile
-            </p> -->
+            <p>Per il benessere della persona</p>
+            <p>Sali da bagno e saponi con pietre per cristalloterapia</p>
             <a class="button" href="wellness0waste.html"> Vedi prodotti </a>
           </div>
 
