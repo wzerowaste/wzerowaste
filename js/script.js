@@ -1,6 +1,7 @@
 //Select-> go to link
 function handleSelect(elm) {
   window.location = elm.value;
+  document.location.href = elm.value;
 }
 
 // Instructions
